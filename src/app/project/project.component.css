@@ -1,0 +1,23 @@
+
+/*When using :host like this, its good practice to set the display to block, by default its inline*/
+:host {
+  border-radius: 3px;
+  box-shadow: 3px 3px 2px #ccc;
+  display: block;
+  margin: 20px 0;
+  /*padding: 20px;*/
+  /*transition: border-color 0.5s ease-out;*/
+}
+
+/*:host(.marked) {*/
+  /*padding: 19px;*/
+/*}*/
+
+:host(.inactive) {
+  color: #ccc;
+}
+
+.form-control {
+  display: inline-block;
+  width: 50%;
+}
